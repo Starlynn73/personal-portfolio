@@ -1,6 +1,5 @@
 # Personal Portfolio
 
-Individual IS117 portfolio skeleton. Separate from the T-shirt and group project repositories.
 
 ## Pages
 - `index.html`: home
@@ -13,4 +12,4 @@ Built with HTML and CSS. No installation or build required. For GitHub Pages, se
 Project content will be added later. Full career reflections and personal eligibility circumstances stay private in Canvas.
 
 ## AI assistance
-AI helped with the skeleton's design, HTML/CSS, and wording. Record personal contributions and peer review as work continues.
+AI helped with the skeleton's design, HTML/CSS, and wording.
