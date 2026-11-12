@@ -496,3 +496,150 @@ footer {
     scroll-behavior:auto
   }
 }
+
+/* Career research: roles, source details, and skills comparison. */
+.research-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0 0 28px;
+  border-bottom: 1px solid var(--line);
+}
+.research-tabs a {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.research-tabs a:hover {
+  background: #e5eadc;
+}
+.research-tabs span {
+  margin-left: 16px;
+  color: var(--muted);
+}
+.research-context {
+  padding: 28px;
+  background: #e7ebdf;
+  border-radius: 6px;
+  margin: 28px 0 48px;
+}
+.small-print {
+  color: var(--muted);
+  font-size: 13px;
+}
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.role-card {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fafaf6;
+  padding: 28px;
+  scroll-margin-top: 24px;
+}
+.role-card p, .role-card li, .role-details {
+  font-size: 14px;
+}
+.role-card h3 {
+  margin-top: 24px;
+  line-height: 1.4;
+}
+.role-card h4 {
+  margin-bottom: 8px;
+}
+.role-card ul {
+  padding-left: 20px;
+}
+.role-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.role-status {
+  font-size: 11px;
+  background: #e5eadc;
+  padding: 3px 9px;
+  border-radius: 4px;
+}
+.role-location, .role-note {
+  color: var(--muted);
+}
+.role-card details {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  margin-top: 24px;
+}
+.role-card summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+.role-card summary:focus-visible {
+  outline: 3px solid #8b5c21;
+  outline-offset: 6px;
+}
+.role-details dt {
+  font-weight: 700;
+  margin-top: 16px;
+}
+.role-details dd {
+  margin: 4px 0 0;
+}
+.role-bottom {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 14px;
+}
+.role-bottom span {
+  font-size: 12px;
+  color: var(--muted);
+}
+.table-scroll {
+  overflow-x: auto;
+  margin-top: 28px;
+}
+.skills-table {
+  width: 100%;
+  min-width: 650px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.skills-table th, .skills-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.skills-table thead {
+  background: var(--green);
+  color: white;
+}
+.skills-table th[scope="row"] {
+  width: 23%;
+}
+#internships, #full-time, #skills {
+  scroll-margin-top: 24px;
+}
+@media (max-width: 760px) {
+  .nav {
+    flex-wrap: wrap;
+    padding: 18px 0;
+    gap: 16px;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+  .role-card, .research-context {
+    padding: 22px;
+  }
+}
