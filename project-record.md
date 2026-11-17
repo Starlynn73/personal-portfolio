@@ -57,7 +57,7 @@ No peer review has been recorded yet. Record incoming feedback, the decision, a 
 
 ## November 12: research expansion
 
-Added a Research navigation link at the owner’s request. Retained Coinbase and Walmart as the original comparison; added Insmed and Adobe internships, Expel’s SOC role, and a clearly closed Fiserv reference. Each role links to its original employer source and distinguishes dated availability, requirements, and coding expectations.
+Added a Research navigation link. Retained Coinbase and Walmart as the original comparison; added Insmed and Adobe internships, Expel’s SOC role, and a clearly closed Fiserv reference. Each role links to its original employer source and distinguishes dated availability, requirements, and coding expectations.
 
 
 Expel and Insmed were checked in the browser. Adobe’s direct page was unreadable; its employer-indexed description is identified accordingly. Fiserv’s published deadline has passed. Full-time roles are career references rather than a claim of current personal eligibility.
@@ -69,5 +69,4 @@ Proposed skill exercises are not completed projects. Peer review remains pending
 
 ## AI assistance
 
-AI assisted with internship research, wording, and the HTML/CSS skeleton. This record does not claim that I independently coded the entire website. Personal contributions and review outcomes will be documented as they occur.
-
+AI assisted with internship research, wording, and the HTML/CSS skeleton. This record does not claim that I independently coded the entire website.
