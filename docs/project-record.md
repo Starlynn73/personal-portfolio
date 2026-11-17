@@ -70,3 +70,38 @@ Proposed skill exercises are not completed projects. Peer review remains pending
 ## AI assistance
 
 AI assisted with internship research, wording, and the HTML/CSS skeleton. This record does not claim that I independently coded the entire website.
+
+## Two approaches
+
+### Approach 1: One-page portfolio
+Put my introduction, background, and projects on one scrolling page. This would let readers find everything quickly, but the page could become crowded as I add more work.
+
+### Approach 2: Separate pages
+Keep Home, About, and Projects on separate pages, with career research available directly on GitHub. This keeps the website organized, but readers have to move between pages.
+
+### My decision
+I chose separate pages because they give my portfolio room to grow. Classmates and potential internship employers can find my background and work through clear navigation.
+
+## User stories, essential features, and checks
+
+| User story | Essential feature | Observable check |
+| --- | --- | --- |
+| As an internship recruiter, I want to understand the student's background and career interests quickly. | A clear homepage introduction. | A reviewer can identify my major and career interests after reading the introduction. |
+| As a classmate, I want to find the research supporting the portfolio's direction. | Clearly labeled links to the GitHub research files. | A reviewer can open the internship, full-time, and skills files without broken links. |
+| As a potential employer, I want to understand the student's contributions. | Project entries explaining the goal, my role, tools, and learning. | A reviewer can identify my contribution and distinguish completed work from planned projects. |
+| As a mobile visitor, I want to read the site and navigate easily. | A responsive layout with readable text and usable links. | At a phone-sized width, a reviewer can read the content and use the navigation without horizontal scrolling. |
+
+## Brand and visual choices
+
+I will keep the dark green, cream background, light green accents, and simple typography already used in the portfolio. These choices support a consistent, readable design.
+
+## Honest persuasion
+
+I will describe my actual education and experience, clearly label unfinished projects, and credit AI assistance. The skills employers request in my research are learning goals, not claims that I already have those skills.
+
+## Peer feedback and next steps
+
+My classmate submitted Issue #1 saying there was not enough content to review:
+https://github.com/Starlynn73/personal-portfolio/issues/1
+
+The career research is now organized into Markdown files on GitHub. My next step is to add actual project evidence and make it easier to find from the portfolio.
