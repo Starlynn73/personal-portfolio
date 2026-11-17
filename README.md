@@ -2,7 +2,7 @@
 
 Research for a college junior comparing Forward Deployed Engineering (FDE) and cybersecurity.
 
-- - [Internships](docs/internships.md)
+- [Internships](docs/internships.md)
 - [Full-time positions](docs/full-time.md)
 - [Skills needed](docs/skills.md)
 
